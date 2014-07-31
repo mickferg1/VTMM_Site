@@ -139,5 +139,10 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	background-image: url(images/background.jpg);
 	background-repeat: repeat-x;
 	text-align: right;
+	padding-top: 2px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #060;
 }
-
