@@ -122,3 +122,22 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	line-height: 0px;
 }
 
+#Logo {
+	position: absolute;
+	width: 170px;
+	height: 150px;
+	z-index: 1;
+	background-image: url(images/butterfly-ovr.gif);
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#h-navbar {
+	font-size: 90%;
+	color: #FFC;
+	background-color: #090;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-x;
+	text-align: right;
+}
+
