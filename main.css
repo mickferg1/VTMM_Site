@@ -1,7 +1,7 @@
 /* CSS Document */
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #42413C;
+	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -35,9 +35,13 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* ~~this fixed width container surrounds the other divs~~ */
 .container {
-	width: 960px;
-	background-color: #FFF;
-	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	width: 950px;
+	background-color: #FFF; /* the auto value on the sides, coupled with the width, centers the layout */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border: 2px solid #060;
 }
 
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
@@ -66,10 +70,12 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding-bottom: 10px;
 }
 .content {
-
-	padding: 10px 0;
-	width: 780px;
+	width: 770px;
 	float: left;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
@@ -91,7 +97,8 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
 	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
 	text-decoration: none;
-	background-color: #C6D580;
+	background-color: #090;
+	color: FFC;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
 	background-color: #ADB96E;
